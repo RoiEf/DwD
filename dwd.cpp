@@ -3,17 +3,19 @@
 timer::timer()
 {
     delta = 1000;           // 1 sec delta
+    firstTimeFlag = 0;
     startMillis = millis(); //initial start time for DwD
 }
-timer::timer(int t, int x)
+timer::timer(unsigned long t)
 {
-    delta = long(x * t);    // ?min delta
+    delta = t;
+    firstTimeFlag = 0;
     startMillis = millis(); //initial start time for DwD
 }
 
-void timer::setDelta(int t, int x)
+void timer::setDelta(unsigned long t)
 {
-    delta = long(x * t); // ?min delta
+    delta = t;
 }
 
 int timer::getDelta()
