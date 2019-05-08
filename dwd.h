@@ -1,5 +1,5 @@
-#ifndef __tim___
-#define __tim___
+#ifndef __tim20___
+#define __tim20___
 
 #if (ARDUINO >= 100)
 #include "Arduino.h"
