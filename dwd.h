@@ -12,11 +12,12 @@ class timer
     unsigned long currentMillis;
     unsigned long startMillis;
     unsigned long delta;
+    bool  firstTimeFlag;
 
   public:
     timer();
-    timer(int, int);
-    void setDelta(int, int);
+    timer(unsigned long t);
+    void setDelta(unsigned long t);
     int getDelta();
     void resetTimer();
     bool checkInterval();
