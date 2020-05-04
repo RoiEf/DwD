@@ -1,11 +1,7 @@
 #ifndef __tim301___
 #define __tim301___
 
-#if (ARDUINO >= 100)
-#include "Arduino.h"
-#else
-#include "WProgram.h"
-#endif
+#include <Arduino.h>  // This is required for use with PlatformIO
 
 class TIMER {
     unsigned long currentMillis;
