@@ -1,12 +1,20 @@
 {
     "name": "DwD",
+    "version": "3.0.1",
     "description": "Delay without using the delay() function for Arduino based applications",
     "keywords": "millis, delay",
-    "repository": {
+    "repository":
+    {
         "type": "git",
         "url": "https://github.com/RoiEf/DwD.git"
     },
-    "version": "3.0.1",
+    "authors":
+    [
+        {
+            "name: "Roi Efrati"
+        }
+    ],
     "license": "MIT",
-    "frameworks": "arduino"
+    "frameworks": "arduino",
+    "platforms": "*"
 }
