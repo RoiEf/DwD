@@ -7,6 +7,6 @@
         "url": "https://github.com/RoiEf/DwD.git"
     },
     "version": "3.0.1",
-    "license": "LGPL-3.0",
+    "license": "MIT",
     "frameworks": "arduino"
 }
