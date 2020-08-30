@@ -1,5 +1,6 @@
-#ifndef __tim301___
-#define __tim301___
+#pragma once
+//#ifndef __tim301___
+//#define __tim301___
 
 #include <Arduino.h>  // This is required for use with PlatformIO
 
@@ -60,4 +61,4 @@ class TIMER {
     }
 };
 
-#endif
+//#endif
